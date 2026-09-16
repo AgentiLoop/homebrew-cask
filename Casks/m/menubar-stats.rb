@@ -1,5 +1,5 @@
 cask "menubar-stats" do
-  version "3.9"
+  version "3.9.916"
   sha256 :no_check
 
   url "https://seense.com/menubarstats/updateapp/mbs.zip"
@@ -13,7 +13,7 @@ cask "menubar-stats" do
   end
 
   auto_updates true
-  depends_on :macos
+  depends_on macos: :sonoma
 
   app "MenuBar Stats.app"
 
