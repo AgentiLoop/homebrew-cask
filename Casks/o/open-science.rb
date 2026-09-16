@@ -1,9 +1,9 @@
 cask "open-science" do
   arch arm: "arm64", intel: "x64"
 
-  version "0.30.0"
-  sha256 arm:   "ae126f0310e0e1b680bc0c1f9f5b9cb8b1effe0effe8c139f496176818c84494",
-         intel: "79579eb0342527510150040ae9b22f7cd7f6a88c6e2a81e5b25e0cfd83cd5c15"
+  version "0.30.1"
+  sha256 arm:   "a15a3df4a0ce2eb900248b220cd5bf41652b0228713990631d243257fd5db427",
+         intel: "f9758d0013e4f18557d89c94f59d1a0a70a466e2fcd91f95b448341aebb42a2d"
 
   url "https://github.com/aipoch/open-science/releases/download/v#{version}/aipoch-open-science-#{version}-mac-#{arch}.dmg"
   name "Open Science"
